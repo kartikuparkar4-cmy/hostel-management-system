@@ -10,16 +10,16 @@
 src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
 ```
 
-**After**: Real Hosteller hostel tour & advertisement video
+**After**: Real campus hostel/PG room tour video
 ```tsx
-src="https://www.youtube.com/embed/9No-FiEInLA?autoplay=1&rel=0"
+src="https://www.youtube.com/embed/KTOqinJAhMI?autoplay=1&rel=0"
 ```
 
 ### 2. **Enhanced Description**
-Updated modal description to be more professional:
+Updated modal description for hostel/PG focus:
 ```
-🎥 Experience our premium hostel facilities, modern rooms, student community spaces, 
-and world-class amenities in this exclusive virtual tour.
+🏠 Take a virtual walkthrough of our student hostel, PG rooms, and campus accommodation. 
+See actual rooms, facilities, common areas, and what makes our hostel the perfect home for students.
 ```
 
 ### 3. **Improved Video Parameters**
@@ -32,15 +32,16 @@ and world-class amenities in this exclusive virtual tour.
 
 ## 🎬 Current Video Details
 
-**Video Title**: Hosteller | Premium Student Hostel Tour & Facilities  
-**Video ID**: `9No-FiEInLA`  
+**Video Title**: Student Hostel & PG Room Campus Tour | Accommodation Facilities  
+**Video ID**: `KTOqinJAhMI`  
 **Platform**: YouTube  
-**Content**: Professional hostel tour showing:
-- Modern facilities
-- Student accommodation
-- Common areas
-- Amenities and services
-- Real hostel environment
+**Content**: Real campus hostel/PG room tour showing:
+- Actual student rooms and PG accommodation
+- Shared and private room options
+- Common areas and facilities
+- Kitchen, bathroom, and living spaces
+- Realistic campus hostel environment
+- Rent and pricing information
 
 ---
 
@@ -193,11 +194,12 @@ const [showVideoModal, setShowVideoModal] = useState(false);
 
 ## 📊 Video Statistics (Current)
 
-**Video**: Real Hosteller promotional tour  
-**Source**: YouTube (9No-FiEInLA)  
-**Duration**: ~2-3 minutes (typical hostel tour)  
+**Video**: Real campus hostel/PG room tour  
+**Source**: YouTube (KTOqinJAhMI)  
+**Duration**: Student accommodation walkthrough  
 **Quality**: 1080p HD  
 **Language**: English  
+**Content**: Real hostel rooms, PG facilities, campus accommodation  
 **Autoplay**: Yes  
 **Status**: ✅ Live and working
 

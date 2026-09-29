@@ -579,17 +579,17 @@ export const HostellerLanding: React.FC<HostellerLandingProps> = ({
             </div>
             
             <p className="text-sm text-slate-600 dark:text-slate-400 mb-4">
-              🎥 Experience our premium hostel facilities, modern rooms, student community spaces, 
-              and world-class amenities in this exclusive virtual tour.
+              � Take a virtual walkthrough of our student hostel, PG rooms, and campus accommodation. 
+              See actual rooms, facilities, common areas, and what makes our hostel the perfect home for students.
             </p>
             
             {/* Video Player */}
             <div className="aspect-video bg-black rounded-lg overflow-hidden">
-              {/* YouTube Embed - Real Hostel Tour & Advertisement Video */}
+              {/* YouTube Embed - Student Hostel/PG Room Campus Tour */}
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/9No-FiEInLA?autoplay=1&rel=0"
-                title="Hosteller | Premium Student Hostel Tour & Facilities"
+                src="https://www.youtube.com/embed/KTOqinJAhMI?autoplay=1&rel=0"
+                title="Student Hostel & PG Room Campus Tour | Accommodation Facilities"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
