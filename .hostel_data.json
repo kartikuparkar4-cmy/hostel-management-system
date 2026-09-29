@@ -47,6 +47,14 @@
       "password": "$2b$10$uHdTXSaazdPwZU7abtueLe4D8Duk.Dl5G/Dnz/YUFsRR741YXVsW2",
       "role": "student",
       "createdAt": "2026-09-29T08:40:36.117Z"
+    },
+    {
+      "_id": "usr_mumgw0c7o6bzk",
+      "name": "uparkar",
+      "email": "wardan@gmail.com",
+      "password": "$2b$10$anfRZfFDqc0ETAsI8toeZeneHC0xGCSO/xY6DhsHeYENjUyH4YjSq",
+      "role": "admin",
+      "createdAt": "2026-09-29T09:21:43.351Z"
     }
   ],
   "rooms": [
@@ -54,8 +62,7 @@
       "_id": "rm_mume5vhc33g6v",
       "number": "101",
       "occupants": [
-        "usr_mume5vh3gx3ii",
-        "usr_mume5vh73c1y2"
+        "usr_mume5vh3gx3ii"
       ],
       "createdAt": "2026-09-29T08:05:24.768Z"
     },
@@ -63,7 +70,7 @@
       "_id": "rm_mume5vhd18o42",
       "number": "102",
       "occupants": [
-        "usr_mume5vh96c0ej"
+        "usr_mumff4lxbpwxc"
       ],
       "createdAt": "2026-09-29T08:05:24.769Z"
     },
@@ -120,8 +127,9 @@
       "checkOutDate": "2026-12-20",
       "nights": 106,
       "guestsCount": 1,
-      "status": "Checked In",
-      "createdAt": "2026-09-29T08:05:24.781Z"
+      "status": "Checked Out",
+      "createdAt": "2026-09-29T08:05:24.781Z",
+      "checkedOutAt": "2026-09-29T09:22:46.887Z"
     },
     {
       "_id": "sty_mume5vhre5lb",
@@ -134,8 +142,23 @@
       "checkOutDate": "2026-12-20",
       "nights": 101,
       "guestsCount": 1,
+      "status": "Checked Out",
+      "createdAt": "2026-09-29T08:05:24.783Z",
+      "checkedOutAt": "2026-09-29T09:22:38.418Z"
+    },
+    {
+      "_id": "sty_mumgwubjr66b",
+      "studentId": "usr_mumff4lxbpwxc",
+      "studentName": "uparkar",
+      "studentEmail": "kartikuparkar54@gmail.com",
+      "roomId": "rm_mume5vhd18o42",
+      "roomNumber": "102",
+      "checkInDate": "2026-09-29",
+      "checkOutDate": "2026-10-13",
+      "nights": 14,
+      "guestsCount": 1,
       "status": "Checked In",
-      "createdAt": "2026-09-29T08:05:24.783Z"
+      "createdAt": "2026-09-29T09:22:22.207Z"
     }
   ]
 }

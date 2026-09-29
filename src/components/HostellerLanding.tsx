@@ -555,23 +555,82 @@ export const HostellerLanding: React.FC<HostellerLandingProps> = ({
 
       {/* Video Modal popup if clicked */}
       {showVideoModal && (
-        <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4">
-          <div className="bg-white dark:bg-slate-900 rounded-xl p-6 max-w-lg w-full text-center space-y-4">
-            <h3 className="text-lg font-bold text-slate-900 dark:text-white">
-              Hosteller Campus & Dorm Tour
-            </h3>
-            <p className="text-xs text-slate-500">
-              Welcome to the virtual hostel showcase! Take a tour of our study halls, recreation lounges, and double-occupant resident rooms.
-            </p>
-            <div className="aspect-video bg-slate-800 rounded-lg flex items-center justify-center text-slate-400 text-xs">
-              [Virtual 360° Walkthrough Video Experience]
+        <div 
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          onClick={() => setShowVideoModal(false)}
+        >
+          <div 
+            className="bg-white dark:bg-slate-900 rounded-xl p-4 sm:p-6 max-w-4xl w-full"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-lg font-bold text-slate-900 dark:text-white">
+                🏠 Hosteller Campus & Dorm Tour
+              </h3>
+              <button
+                onClick={() => setShowVideoModal(false)}
+                className="text-slate-400 hover:text-slate-600 dark:hover:text-white transition-colors"
+                aria-label="Close video"
+              >
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
             </div>
-            <button
-              onClick={() => setShowVideoModal(false)}
-              className="px-4 py-2 text-xs font-semibold text-white bg-[#1b4d79] rounded-lg"
-            >
-              Close Tour
-            </button>
+            
+            <p className="text-sm text-slate-600 dark:text-slate-400 mb-4">
+              Welcome to our virtual hostel showcase! Take a tour of our study halls, recreation lounges, 
+              and double-occupant resident rooms with modern amenities.
+            </p>
+            
+            {/* Video Player */}
+            <div className="aspect-video bg-black rounded-lg overflow-hidden">
+              {/* Option 1: YouTube Embed - Replace VIDEO_ID with your YouTube video ID */}
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+                title="Hostel Campus Tour"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+              
+              {/* Option 2: Local Video File - Uncomment to use
+              <video 
+                className="w-full h-full" 
+                controls 
+                autoPlay
+                poster="/hostel-tour-thumbnail.jpg"
+              >
+                <source src="/videos/hostel-tour.mp4" type="video/mp4" />
+                <source src="/videos/hostel-tour.webm" type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+              */}
+              
+              {/* Option 3: Vimeo Embed - Uncomment to use Vimeo
+              <iframe
+                className="w-full h-full"
+                src="https://player.vimeo.com/video/VIDEO_ID?autoplay=1"
+                title="Hostel Campus Tour"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+              */}
+            </div>
+            
+            <div className="mt-4 flex items-center justify-between">
+              <div className="text-xs text-slate-500 dark:text-slate-400">
+                🎥 Virtual 360° Walkthrough Experience
+              </div>
+              <button
+                onClick={() => setShowVideoModal(false)}
+                className="px-4 py-2 text-sm font-semibold text-white bg-[#1b4d79] hover:bg-[#14395a] rounded-lg transition-colors"
+              >
+                Close Tour
+              </button>
+            </div>
           </div>
         </div>
       )}
