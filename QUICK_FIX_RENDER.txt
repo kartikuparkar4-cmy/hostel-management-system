@@ -1,0 +1,94 @@
+===============================================
+QUICK FIX FOR RENDER DEPLOYMENT ERROR
+===============================================
+
+Your code is pushed to GitHub!
+Now fix the Render deployment in 3 steps:
+
+STEP 1: Update Build Command
+-----------------------------
+1. Go to: https://dashboard.render.com
+2. Click on: hostel-management-system
+3. Click: Settings (left sidebar)
+4. Scroll to: Build & Deploy section
+5. Change Build Command to:
+   npm install && npm run build
+
+6. Keep Start Command as:
+   npm start
+
+7. Click: Save Changes
+
+
+STEP 2: Add Environment Variables
+----------------------------------
+1. Click: Environment (left sidebar)
+2. Add these variables:
+
+   Key: NODE_ENV
+   Value: production
+
+   Key: JWT_SECRET  
+   Value: super-secret-jwt-key-hostel-system-2026
+
+   Key: ADMIN_CODE
+   Value: warden123
+
+   Key: APP_URL
+   Value: https://hostel-management-system-fgxp.onrender.com
+
+3. Click: Save Changes
+
+
+STEP 3: Redeploy
+----------------
+1. Click: Manual Deploy (top right)
+2. Click: Deploy latest commit
+3. Wait 2-3 minutes
+4. Done! ✅
+
+
+WHAT WILL HAPPEN:
+-----------------
+✅ npm install → Installs dependencies
+✅ npm run build → Builds React frontend to /dist folder
+✅ npm start → Starts Express server
+✅ Server serves files from /dist
+✅ No more "dist/index.html not found" error!
+
+
+YOUR LIVE URLS:
+---------------
+App: https://hostel-management-system-fgxp.onrender.com
+API: https://hostel-management-system-fgxp.onrender.com/api/health
+
+
+TEST AFTER DEPLOYMENT:
+----------------------
+Open: https://hostel-management-system-fgxp.onrender.com
+
+Admin Login:
+Email: warden@hostel.edu
+Password: warden123
+
+Student Login:
+Email: alex@student.edu
+Password: student123
+
+
+EXPECTED LOGS (in Render):
+---------------------------
+✅ bun install → dependencies installed
+✅ npm run build → Building frontend...
+✅ Build successful 🎉
+✅ [Hostel App] Server is running at http://0.0.0.0:10000
+✅ Your service is live 🎉
+
+
+THAT'S IT!
+----------
+After these 3 steps, your app will be fully deployed and working!
+
+🚀 Good luck with your submission!
+
+===============================================
