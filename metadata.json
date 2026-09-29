@@ -1,0 +1,8 @@
+{
+  "name": "Hostel Management System",
+  "description": "Hostel room allocation and student maintenance complaint management system with role-based admin and student dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "_id": "usr_mume5vgzk76il",
+      "name": "Dr. Arthur Vance (Warden)",
+      "email": "warden@hostel.edu",
+      "password": "$2b$10$Q10NLO7nzeQ5rRrZteO2YOkpDV3T866mOhiLwECJkEMejg9MhiW8K",
+      "role": "admin",
+      "createdAt": "2026-09-29T08:05:24.755Z"
+    },
+    {
+      "_id": "usr_mume5vh3gx3ii",
+      "name": "Alex Johnson",
+      "email": "alex@student.edu",
+      "password": "$2b$10$f1ir0S2TLNPU4l6dUbnYF.GsxT0AMzdCJo2/kPJiKre3CvejWsk56",
+      "role": "student",
+      "createdAt": "2026-09-29T08:05:24.759Z"
+    },
+    {
+      "_id": "usr_mume5vh73c1y2",
+      "name": "Samantha Lee",
+      "email": "sam@student.edu",
+      "password": "$2b$10$f1ir0S2TLNPU4l6dUbnYF.GsxT0AMzdCJo2/kPJiKre3CvejWsk56",
+      "role": "student",
+      "createdAt": "2026-09-29T08:05:24.763Z"
+    },
+    {
+      "_id": "usr_mume5vh96c0ej",
+      "name": "Jordan Miller",
+      "email": "jordan@student.edu",
+      "password": "$2b$10$f1ir0S2TLNPU4l6dUbnYF.GsxT0AMzdCJo2/kPJiKre3CvejWsk56",
+      "role": "student",
+      "createdAt": "2026-09-29T08:05:24.765Z"
+    },
+    {
+      "_id": "usr_mume5vhazxud0",
+      "name": "Rohan Sharma",
+      "email": "rohan@student.edu",
+      "password": "$2b$10$f1ir0S2TLNPU4l6dUbnYF.GsxT0AMzdCJo2/kPJiKre3CvejWsk56",
+      "role": "student",
+      "createdAt": "2026-09-29T08:05:24.766Z"
+    },
+    {
+      "_id": "usr_mumff4lxbpwxc",
+      "name": "uparkar",
+      "email": "kartikuparkar54@gmail.com",
+      "password": "$2b$10$uHdTXSaazdPwZU7abtueLe4D8Duk.Dl5G/Dnz/YUFsRR741YXVsW2",
+      "role": "student",
+      "createdAt": "2026-09-29T08:40:36.117Z"
+    }
+  ],
+  "rooms": [
+    {
+      "_id": "rm_mume5vhc33g6v",
+      "number": "101",
+      "occupants": [
+        "usr_mume5vh3gx3ii",
+        "usr_mume5vh73c1y2"
+      ],
+      "createdAt": "2026-09-29T08:05:24.768Z"
+    },
+    {
+      "_id": "rm_mume5vhd18o42",
+      "number": "102",
+      "occupants": [
+        "usr_mume5vh96c0ej"
+      ],
+      "createdAt": "2026-09-29T08:05:24.769Z"
+    },
+    {
+      "_id": "rm_mume5vhfflyo4",
+      "number": "103",
+      "occupants": [],
+      "createdAt": "2026-09-29T08:05:24.771Z"
+    }
+  ],
+  "complaints": [
+    {
+      "_id": "cmp_mume5vht4vid2",
+      "student": "usr_mume5vh3gx3ii",
+      "room": "rm_mume5vhc33g6v",
+      "text": "The study lamp desk socket is sparking and the bathroom tap is leaking.",
+      "status": "Pending",
+      "createdAt": "2026-09-29T08:05:24.785Z",
+      "updatedAt": "2026-09-29T08:05:24.785Z"
+    },
+    {
+      "_id": "cmp_mume5vhvfy0ha",
+      "student": "usr_mume5vh96c0ej",
+      "room": "rm_mume5vhd18o42",
+      "text": "Window latch was loose. Repaired by maintenance.",
+      "status": "Resolved",
+      "createdAt": "2026-09-29T08:05:24.787Z",
+      "updatedAt": "2026-09-29T08:05:24.789Z"
+    }
+  ],
+  "stays": [
+    {
+      "_id": "sty_mume5vhmmq0u",
+      "studentId": "usr_mume5vh3gx3ii",
+      "studentName": "Alex Johnson",
+      "studentEmail": "alex@student.edu",
+      "roomId": "rm_mume5vhc33g6v",
+      "roomNumber": "101",
+      "checkInDate": "2026-09-01",
+      "checkOutDate": "2026-12-20",
+      "nights": 110,
+      "guestsCount": 1,
+      "status": "Checked In",
+      "createdAt": "2026-09-29T08:05:24.778Z"
+    },
+    {
+      "_id": "sty_mume5vhpv9d5",
+      "studentId": "usr_mume5vh73c1y2",
+      "studentName": "Samantha Lee",
+      "studentEmail": "sam@student.edu",
+      "roomId": "rm_mume5vhc33g6v",
+      "roomNumber": "101",
+      "checkInDate": "2026-09-05",
+      "checkOutDate": "2026-12-20",
+      "nights": 106,
+      "guestsCount": 1,
+      "status": "Checked In",
+      "createdAt": "2026-09-29T08:05:24.781Z"
+    },
+    {
+      "_id": "sty_mume5vhre5lb",
+      "studentId": "usr_mume5vh96c0ej",
+      "studentName": "Jordan Miller",
+      "studentEmail": "jordan@student.edu",
+      "roomId": "rm_mume5vhd18o42",
+      "roomNumber": "102",
+      "checkInDate": "2026-09-10",
+      "checkOutDate": "2026-12-20",
+      "nights": 101,
+      "guestsCount": 1,
+      "status": "Checked In",
+      "createdAt": "2026-09-29T08:05:24.783Z"
+    }
+  ]
+}
