@@ -10,16 +10,16 @@
 src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
 ```
 
-**After**: Real campus hostel/PG room tour video
+**After**: Professional hostel tour & room tour video (User's choice)
 ```tsx
-src="https://www.youtube.com/embed/KTOqinJAhMI?autoplay=1&rel=0"
+src="https://www.youtube.com/embed/-QyT05sGARw?autoplay=1&rel=0"
 ```
 
 ### 2. **Enhanced Description**
-Updated modal description for hostel/PG focus:
+Updated modal description for professional hostel tour:
 ```
-🏠 Take a virtual walkthrough of our student hostel, PG rooms, and campus accommodation. 
-See actual rooms, facilities, common areas, and what makes our hostel the perfect home for students.
+🏠 Take a professional virtual tour of our hostel facilities and premium room accommodations. 
+See our modern rooms, world-class amenities, and discover why students love living here!
 ```
 
 ### 3. **Improved Video Parameters**
@@ -32,16 +32,17 @@ See actual rooms, facilities, common areas, and what makes our hostel the perfec
 
 ## 🎬 Current Video Details
 
-**Video Title**: Student Hostel & PG Room Campus Tour | Accommodation Facilities  
-**Video ID**: `KTOqinJAhMI`  
+**Video Title**: Professional Hostel Tour & Room Tour Video  
+**Video ID**: `-QyT05sGARw`  
+**Video URL**: https://www.youtube.com/watch?v=-QyT05sGARw  
 **Platform**: YouTube  
-**Content**: Real campus hostel/PG room tour showing:
-- Actual student rooms and PG accommodation
-- Shared and private room options
-- Common areas and facilities
-- Kitchen, bathroom, and living spaces
-- Realistic campus hostel environment
-- Rent and pricing information
+**Content**: Professional hostel and room tour showing:
+- Premium hostel facilities and accommodations
+- Modern room designs and layouts
+- Student living spaces
+- Common areas and amenities
+- Professional production quality
+- Ideal for showcasing hostel management system
 
 ---
 
@@ -194,12 +195,13 @@ const [showVideoModal, setShowVideoModal] = useState(false);
 
 ## 📊 Video Statistics (Current)
 
-**Video**: Real campus hostel/PG room tour  
-**Source**: YouTube (KTOqinJAhMI)  
-**Duration**: Student accommodation walkthrough  
-**Quality**: 1080p HD  
+**Video**: Professional hostel & room tour  
+**Source**: YouTube (-QyT05sGARw)  
+**URL**: https://www.youtube.com/watch?v=-QyT05sGARw  
+**Duration**: Professional hostel tour  
+**Quality**: HD  
 **Language**: English  
-**Content**: Real hostel rooms, PG facilities, campus accommodation  
+**Content**: Premium hostel facilities, modern rooms, student amenities  
 **Autoplay**: Yes  
 **Status**: ✅ Live and working
 
